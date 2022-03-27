@@ -36343,11 +36343,23 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 93px;
+  min-height: 81px;
+}
+
+.u-header .u-image-1 {
+  width: 155px;
+  height: 69px;
+  filter: brightness(0.6);
+  margin: 12px auto 0;
+}
+
+.u-header .u-logo-image-1 {
+  width: 100%;
+  height: 100%;
 }
 
 .u-header .u-menu-1 {
-  margin: 33px auto 32px -19px;
+  margin: -51px auto 23px -19px;
 }
 
 .u-header .u-file-icon-1 {
@@ -36366,13 +36378,32 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
+  .u-header .u-image-1 {
+    width: 155px;
+  }
+
   .u-header .u-menu-1 {
     width: auto;
+    margin-top: -37px;
   }
 }
 
 
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 93px;
+  }
 
+  .u-header .u-image-1 {
+    width: 155px;
+    margin-top: 24px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: -50px;
+    margin-bottom: 22px;
+  }
+}
  .u-footer {
   background-image: none;
 }
